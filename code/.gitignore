@@ -1,0 +1,57 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.venv/
+venv/
+env/
+.env
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========== Data ==========
+data/chroma/
+data/uploads/
+!data/uploads/.gitkeep
+data/*.db
+*.sqlite3
+
+# ========== Models ==========
+models/*.bin
+models/*.pt
+models/*.onnx
+models/BAAI/
+
+# ========== Logs ==========
+logs/
+*.log
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== Docker ==========
+docker/mysql/data/
+docker/redis/data/
+docker/minio/data/
+
+# ========== Test ==========
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# ========== Frontend ==========
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.claude/
